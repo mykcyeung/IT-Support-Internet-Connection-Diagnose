@@ -20,7 +20,7 @@ This project is a simple check of internet connectivity using Windows Command Pr
 * Tests if domain names can be converted into IP addresses
 * If this fails but IP ping works > DNS issue
 * Failed: DNS is broken
-   *  ipconfig /flushdns : renew cache
+   *  ipconfig /flushdns
    * Change DNS settings (e.g. 8.8.8.8 or 1.1.1.1)
    *  Restart network adapter
 
